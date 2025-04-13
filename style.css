@@ -1,0 +1,187 @@
+
+.display-5 {
+  color: #3dbe50;
+  font-family: 'Courier New', monospace;
+  font-size: 2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #008cff; 
+  width: 0;
+  animation: typing 2.5s steps(15, end) forwards, blink 0.7s step-end infinite;
+  margin: 0 auto; 
+  text-align: center; 
+  display: inline-block; 
+}
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 15ch; } /* 14 characters in "Hey Corporates!" */
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+
+ .Programming-image{
+  float: left;
+  width:100vh;
+  margin-left:200px;
+  border-radius:20px;
+
+ }
+ 
+ .Programming-head{
+  display:flex;
+  justify-content: center;
+  font-size: medium;
+  font-weight:900;
+  font-size: 1.5rem;
+  font-family: Arial, sans-serif;
+ }
+ 
+ .Programming-breif{
+  display:flex;
+  justify-content:space-around;
+  align-content: end;
+  padding:20px 10px;
+  font-family:'Gill Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin:50px;
+  text-align:justify;
+ }
+
+ .Skills-header{
+  padding-top:15px;
+  padding-bottom:20px;
+  color:	#00BCD4;
+  text-align:center;
+ }
+ 
+ .Publicspeaking-image{
+  float: left;
+  width:100vh;
+  margin-left:200px;
+   margin-top: 40px;
+  border-radius:20px;
+ }
+
+ .Publicspeaking-head{
+  display:flex;
+  justify-content:space-around;
+  padding:20px 10px 10px;
+  font-family:'Gill Sans', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-top:50px;
+  text-align:justify;
+ }
+ 
+ .skillSection{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.Publicspeaking-breif{
+  display:flex;
+  justify-content:space-around;
+  align-content: end;
+  padding:20px 10px;
+  font-family:'Gill Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin:50px;
+  text-align:justify;
+}
+
+.Contact-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .Programming-image,
+  .Publicspeaking-image {
+    float: none;
+    width: 90vw;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .Programming-head,
+  .Publicspeaking-head {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .Programming-breif,
+  .Publicspeaking-breif {
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 1rem;
+    flex-direction: column;
+  }
+
+  .section-1,
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Skills-header,
+  .Contactus-head {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Contactus-breif {
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: justify;
+    justify-content: center;
+  }
+
+  .Highlight-1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+
+.Contactus-head{
+  padding-top:15px;
+  padding-bottom:20px;
+  color:	#00BCD4;
+  text-align:center;
+}
+
+.Contactus-breif{
+  display:flex;
+  justify-content:center;
+  text-align: justify;
+  font-family:'Gill Sans', sans-serif;
+  font-size: large;
+  color:rgb(12, 100, 155)
+}
+
+.Highlight-1{
+  text-align: center;
+  font-family:'Gill Sans', sans-serif;
+  font-size: xx-large;
+  font-weight:400;
+}
+
